@@ -10,3 +10,6 @@
 // Примечания: Пользователь всегда вводит корректное число.
 // Советую округлить значение после расчетов, так как в некоторых случаях может получиться "длинная дробь".
 
+Math.round
+let Fahrenheit = Number.parseInt(prompt('enter temperature in Fahrenheit: '));
+alert(`temperature in Celsius is ${Math.round((9 / 5) * Fahrenheit + 32)}`)
