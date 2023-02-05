@@ -1,0 +1,29 @@
+
+
+
+-- create
+CREATE TABLE CLASSMATES (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age TEXT NOT NULL,
+  adress TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO CLASSMATES VALUES (0001, 'Ivan', '30', 'Moscow');
+INSERT INTO CLASSMATES VALUES (0002, 'Helena', '28', 'Tomsk');
+INSERT INTO CLASSMATES VALUES (0003, 'Denis', '29', 'Moscow');
+INSERT INTO CLASSMATES VALUES (0004, 'Victor', '42', 'Kazan');
+INSERT INTO CLASSMATES VALUES (0005, 'Mikhail', '22', 'Vladivostok');
+INSERT INTO CLASSMATES VALUES (0006, 'Oksana', '22', 'Khabarovsk');
+INSERT INTO CLASSMATES VALUES (0007, 'Stepan', '18', 'Moscow');
+INSERT INTO CLASSMATES VALUES (0008, 'Yuriy', '44', 'St.Petersburg');
+INSERT INTO CLASSMATES VALUES (0009, 'Pavel', '21','Moscow');
+INSERT INTO CLASSMATES VALUES (00010, 'Serey', '37', 'Omsk');
+
+-- fetch 
+
+SELECT NAME FROM CLASSMATES WHERE adress = 'Moscow' AND age >= 18 AND age < 30;
+
+
+
