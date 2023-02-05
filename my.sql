@@ -22,7 +22,6 @@ INSERT INTO CLASSMATES VALUES (0009, 'Pavel', '21','Moscow');
 INSERT INTO CLASSMATES VALUES (00010, 'Serey', '37', 'Omsk');
 
 -- fetch 
-
 SELECT NAME FROM CLASSMATES WHERE adress = 'Moscow' AND age >= 18 AND age < 30;
 
 
